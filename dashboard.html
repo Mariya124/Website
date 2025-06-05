@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <h1>Tool Dashboard</h1>
+    <div class="tool-grid">
+      <div class="tool" onclick="log('Dumping APK...')">📦 Dump APK</div>
+      <div class="tool" onclick="log('Bypassing Root...')">🛡️ Bypass Root</div>
+      <div class="tool" onclick="log('Checking ABI...')">📱 Check ABI</div>
+      <div class="tool" onclick="log('Starting Logs...')">📜 View Logs</div>
+    </div>
+    <div class="terminal" id="terminal">> Ready<br></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
